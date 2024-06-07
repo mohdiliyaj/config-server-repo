@@ -3,6 +3,7 @@ spring:
     username: root
     password: 19911A0413@i
     url: jdbc:mysql://localhost:3306/infinity_mart
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
