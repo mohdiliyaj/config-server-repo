@@ -29,6 +29,6 @@ management:
 
 sendgrid:
   api:
-    keyId: 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
+    key: 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
     templateId: d-bd0c175d0a6a492c99e640924528e850
     senderMail: mohdiliyaj.learning@gmail.com
