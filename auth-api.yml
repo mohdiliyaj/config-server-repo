@@ -30,3 +30,17 @@ management:
 sendgrid:
   api:
     senderMail: mohdiliyaj.learning@gmail.com
+
+auth-service:
+ messages: 
+  userAlreadyExits: This account already exists. Please log in or register with a different email.
+  userNotExits: No account found with this email address.
+  registerSuccess: Congratulations! Your account has been created successfully.
+  registerFailed: Something went wrong while setting up your account. Please try again in a few minutes.
+  loginFailed: Login failed. Check your email and password.
+  OTPSentSuccess: OTP has been successfully sent to your email.
+  OTPSentFailed: Oops! We encountered a problem while sending the OTP email. Please try again later.
+  OTPVarifyFailed: Oops! We couldn't verify your code. Please double-check and try again.
+  passwordUpdateSuccess: Your password has been updated successfully.
+  passwordUpdateFailed: Password update failed. Please try again later.
+  invalidResetPwdRequest: Please fill in all the required information: email, OTP (One-Time Password), or updated password.
