@@ -44,5 +44,6 @@ product-service:
     productSaveError: Error occured while saving the product.
     productUpdateSuccess: product details updated successfully.
     productUpdateFailed: Error occured while updating the product details.
-    
+    productDeleteSuccess: Product deleted successfully.
+    productDeltedFailed: error occured while deleting the product.
     
