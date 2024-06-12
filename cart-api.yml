@@ -28,5 +28,5 @@ management:
 
 cart-service:
   messages:
-    categoryAlreadyExits: Oops! It looks like the category you're trying to create already exists.
-    
+    productAddedCartSuccess: product added to the cart successfully.
+    productAddedCartError: Error occured while adding the product to cart.
