@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: cart-api
+  datasource:
+    username: root
+    password: 19911A0413@i
+    url: jdbc:mysql://localhost:3306/infinity_mart
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+        
+server:
+  port: 8083
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+cart-service:
+  messages:
+    categoryAlreadyExits: Oops! It looks like the category you're trying to create already exists.
+    
