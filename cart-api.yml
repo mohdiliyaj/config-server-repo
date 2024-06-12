@@ -30,3 +30,7 @@ cart-service:
   messages:
     productAddedCartSuccess: product added to the cart successfully.
     productAddedCartError: Error occured while adding the product to cart.
+    quantityUpdateSuccess: product quantity updated successfully.
+    quantityUpdateError: Error occured while updating the quantity of the product.
+    productDeleteSuccess: product removed from the cart successfully.
+    productDeleteError: Error occured while removing the product from the cart.
