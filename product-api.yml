@@ -22,7 +22,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
       
-      
 management:
   endpoints:
     web:
@@ -33,4 +32,11 @@ product-service:
   messages:
     categoryAlreadyExits: Oops! It looks like the category you're trying to create already exists.
     categoryAddSuccess: Congratulations! You've successfully added a new category
+    categoryNotFound: Category not found.
+    categoryAddFailed: error occured while adding the category.
+    categoryUpdateSuccess: category updated successfully.
+    categoryUpdateFailed: error occcccured while updating the category.
+    categoryDeleteSuccess: category deleted successfully.
+    categoryDeleteFailed: error occured while deleting the category.
+    
     
