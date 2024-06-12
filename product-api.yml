@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: product-api
   datasource:
     username: root
     password: 19911A0413@i
