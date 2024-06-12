@@ -38,5 +38,10 @@ product-service:
     categoryUpdateFailed: error occcccured while updating the category.
     categoryDeleteSuccess: category deleted successfully.
     categoryDeleteFailed: error occured while deleting the category.
+    productAlreadyExits: Product already there with this specifications.
+    productNotFound: Product not exits with this id.
+    productSaveSuccess: Product saved successfully.
+    productSaveError: Error occured while saving the product.
+    
     
     
