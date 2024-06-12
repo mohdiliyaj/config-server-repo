@@ -42,6 +42,7 @@ product-service:
     productNotFound: Product not exits with this id.
     productSaveSuccess: Product saved successfully.
     productSaveError: Error occured while saving the product.
-    
+    productUpdateSuccess: product details updated successfully.
+    productUpdateFailed: Error occured while updating the product details.
     
     
